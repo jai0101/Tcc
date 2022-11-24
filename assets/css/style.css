@@ -30,7 +30,7 @@ b56e56
 h1,
 h2,
 h3,
-h4,
+h4,hero-bg
 h5,
 h6 {
   font-family: "Nunito", sans-serif;
@@ -341,6 +341,16 @@ c0714f28
   display: none;
   line-height: 0;
   transition: 0.5s;
+}
+
+
+/**
+* Mobile Navigation 
+*/
+.mobile-nav-toggle {
+  color: #7d3617;
+  font-size: 28px;
+  cursor: pointer;
 }
 
 .mobile-nav-toggle.bi-x {
@@ -1004,7 +1014,7 @@ c0714f28
 
 .pricing ul li {
   padding-bottom: 10px;
-}
+}hero-bg
 
 .pricing ul .na {
   color: #ccc;
